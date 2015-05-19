@@ -5,7 +5,8 @@
 
 PhoenixCMS(`PXCMS`) is built on top of `Laravel 5` this provides us with a nice stable base from which to build on top of.
 
-## <a href="#sysrequirements" name="sysrequirements">#</a> System Requirements
+<a name="sysrequirements"></a>
+## <a href="#sysrequirements">#</a> System Requirements
 
 `PXCMS` needs the following to run correctly, missing any of these will result in missing or broken functionality, or might even make the system not work at all.
 
@@ -24,7 +25,8 @@ Laravel states that
 - NPM
 - Bower
 
-## <a href="#installing" name="installing">#</a> Installing
+<a name="installing"></a>
+## <a href="#installing">#</a> Installing
 
 To install `PXCMS` first clone the main project.
 > `git clone https://github.com/Cysha/PhoenixCMS.git .`

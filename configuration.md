@@ -3,13 +3,14 @@
 - [Admin Panel](#admin)
 - [Module](#module)
 
-## <a href="#admin" name="admin">#</a>Admin Panel
+<a name="admin"></a>
+## <a href="#admin">#</a> Admin Panel
 
 Once installed the system has an Administrative Panel, you can customize most of the system with these settings.
 The system will save the settings into a database table `config`. Anything saved into this table can override core Laravel and Module settings alike.
 
-
-## <a href="#module" name="module">#</a>Module
+<a name="module"></a>
+## <a href="#module">#</a> Module
 
 Each module can have it's own settings. The settings get stored in the `Config` folder under your module root. When there is an update or install, the system will automatically group the settings into the main configuration directory.
 

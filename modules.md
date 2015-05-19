@@ -1,9 +1,11 @@
 # Modules
 
 - [Structure](#structure)
-- [x](#x)
+- [Module Entity](#module-entity)
+- [Commands](#commands)
 
-## <a name="structure">Structure</a>
+<a name="structure"></a>
+## <a href="#structure">#</a> Structure
 `PXCMS` uses [`ping-pong/modules`](http://sky.pingpong-labs.com/docs/2.0/modules) for modular support.
 
 A module has the following structure.
@@ -37,9 +39,8 @@ app/
       ├── module.json
       ├── start.php
 ```
-
-## <a name="module-entity">Module Entity</a>
-
+<a name="module-entity"></a>
+## <a href="#module-entity">#</a> Module Entity
 You can gather information from a module by using the `Module::find()`
 
 From there you can do a range of things:
@@ -52,8 +53,8 @@ From there you can do a range of things:
 - `$module->disable()` // Disable the module
 - `$module->delete()` // Delete a module
 
-
-## <a name="commands">Commands</a>
+<a name="commands"></a>
+## <a href="#commands">#</a> Commands
 
 <table class="table table-striped table-bordered">
     <thead>

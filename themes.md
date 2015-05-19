@@ -1,9 +1,12 @@
 # Themes
 
 - [Structure](#structure)
-- [x](#x)
+- [Basics](#basics)
+- [Managing Themes](#managing-themes)
 
-## <a name="structure">Structure</a>
+<a name="structure"></a>
+## <a href="#structure">#</a> Structure
+
 `PXCMS` uses [`teepluss/laravel-theme`](https://github.com/teepluss/laravel-theme) for theme support.
 
 A theme has the following structure.
