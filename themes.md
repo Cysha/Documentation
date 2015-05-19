@@ -40,4 +40,18 @@ themes/
     ├── theme.json
 ```
 
+<a name="basics"></a>
+## <a href="#basics">#</a> Basics
+
+Each theme has a few default files to allow certain things to happen.
+- `config.php` will be used by the theme package to allow you to set some sane defaults.
+- `theme.json` is the file the CMS will use to identify the theme.
+- `package.json` `gulpfile.json` and `bower.json` are all used by NPM, Gulp and Bower to manage the themes dependencies. These dependencies are things like Bootstrap, Font Awesome, jQuery etc.
+
+<a name="managing-themes"></a>
+## <a href="#managing-themes">#</a> Managing Themes
+
+Themes can be managed via the Admin Panel. If your user has the correct permissions, there will be a link on the left sidebar titled `Theme Manager`. This will enable you to switch the default frontend & backend themes.
+
+At this time, there are no configuration options available for themes.
 
