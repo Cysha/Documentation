@@ -2,6 +2,7 @@
 
 - [System Requirements](#sysrequirements)
 - [Installing](#installing)
+- [Scheduler](#scheduler)
 
 PhoenixCMS(`PXCMS`) is built on top of `Laravel 5` this provides us with a nice stable base from which to build on top of.
 
@@ -40,3 +41,12 @@ Next step will be to run `php artisan cms:install` from the projects root direct
 The Installer will ask you if you want to install the database and then again if you want to seed the data. Say `yes` to both of these questions.
 
 Unless you ran into problems, Your instance should be installed and ready to go.
+
+<a name="scheduler"></a>
+## <a href="#scheduler">#</a> Cron Scheduler
+
+Here is the only Cron entry you need to add to your server:
+
+```* * * * * php /path/to/artisan schedule:run 1>> /dev/null 2>&1```
+
+This Cron will call the Laravel command scheduler every minute. This will run any commands that are due to run from the installed modules.
