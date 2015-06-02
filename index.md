@@ -47,6 +47,6 @@ Unless you ran into problems, Your instance should be installed and ready to go.
 
 Here is the only Cron entry you need to add to your server:
 
-```* * * * * php /path/to/artisan schedule:run 1>> /dev/null 2>&1```
+> `* * * * * php /path/to/artisan schedule:run 1>> /dev/null 2>&1`
 
 This Cron will call the Laravel command scheduler every minute. This will run any commands that are due to run from the installed modules.
