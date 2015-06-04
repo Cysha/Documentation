@@ -44,7 +44,7 @@ Unless you ran into problems, Your instance should be installed and ready to go.
 
 ### <a href="#installing_xampp">#</a> Installing in a xampp/lampp environment
 
-After running the above commands, a [vhost](http://httpd.apache.org/docs/2.2/vhosts/) needs to be set up. This is how you do it in [xampp](https://www.apachefriends.org/index.html) for linux:
+After running the above commands, a [vhost](http://httpd.apache.org/docs/2.2/vhosts/) needs to be set up. This is how you do it in [xampp](https://www.apachefriends.org/index.html) for linux:  
 **Note:** tested with Apache/2.4.12 (Unix)
 
 1. Set up your `/etc/hosts` by adding a new entry. This is what you'll use to access the CMS. It would be a wise idea to refer to your distribution's guide on how to do this.  
