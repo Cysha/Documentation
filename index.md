@@ -34,7 +34,7 @@ To install `PXCMS` first clone the main project.
 
 This will get you a copy of the main project without any themes or modules. At this point you can customize the `composer.json` as you see fit, add some more modules, or some alternate themes.
 
-Once you are happy, you can run `composer install`, this will run a full system install, grabbing everything it needs to run. **This can take a few minutes**.
+Once you are happy, you can run `composer install`, this will run a full system install, grabbing everything it needs to run. **This can take a few minutes**. While that is going, you will need to duplicate `.env.example` to `.env` this will contain the core configuration details, make sure the details are correct in there.
 
 Next step will be to run `php artisan cms:install` from the projects root directory. If the installer cannot make a connection to the database you will see an error message and will need to fix it before continuing.
 
